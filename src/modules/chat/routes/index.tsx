@@ -10,4 +10,4 @@ export const chatRouter : Array<RouteObject> = [
         path : "messages",
         element: <Messages />,
     }
-]
+] 

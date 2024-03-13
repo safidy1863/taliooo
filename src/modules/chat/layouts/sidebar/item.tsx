@@ -12,10 +12,12 @@ type SidebarItemProps = {
 function SidebarItem(props: SidebarItemProps) {
   const { icon, label, number, path } = props;
 
+  console.log(icon)
+
   return (
     <NavLink to={path}>
-      <Icon icon={icon} />
-      <span>{label}</span>
+      {/* <Icon icon={icon} /> */}
+      <span>{icon}</span>
       <span>{number}</span>
     </NavLink>
   );
