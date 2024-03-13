@@ -1,13 +1,12 @@
 import { createBrowserRouter, Outlet } from "react-router-dom";
-import ChatLayout from "../modules/chat/layouts";
-import { chatRouter } from "../modules/chat/routes";
 import { pointageRouter } from "../modules/pointages/router";
+import { authRouter } from "../modules/auth/routes";
 
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <ChatLayout />,
-    children: chatRouter,
+    element: <Outlet />,
+    children: authRouter,
   },
   {
     path: "/pointages",
