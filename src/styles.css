@@ -10,3 +10,16 @@
 body {
     font-family: "gilroy";
 }
+
+/* Ellipse 2 */
+
+.circle{
+box-sizing: border-box;
+position: absolute;
+width: 670.51px;
+height: 670.51px;
+left: -293.31px;
+top: 993.1px;
+
+transform: rotate(-55.88deg);
+}
